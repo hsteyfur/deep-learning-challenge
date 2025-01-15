@@ -9,8 +9,10 @@ Data Preprocessing
 
 What variable(s) are the target(s) for your model?
 The target variable is the 'IS_SUCCESSFUL' column from application_df
+
 What variable(s) are the features for your model?
 The feature variables are every other column from application_df --> this was defined by dropping the 'IS_SUCCESSFUL' column from the original dataframe
+
 What variable(s) should be removed from the input data because they are neither targets nor features?
 'EIN' column was dropped/removed, because it was neither target nor feature for the dataset.
 
@@ -18,9 +20,11 @@ What variable(s) should be removed from the input data because they are neither 
 Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
-In the first attempt, i used 80 layer1 and 30 layer2 
+In the first attempt, I used 80 as layer1 and 30 as layer2 
+
 Were you able to achieve the target model performance?
 I was not able to achieve the 75% model accuracy target at first try but after including the NAME column into the features I did get %75 accuracy. 
+
 What steps did you take in your attempts to increase model performance?
 I added more layers, removed more columns, added additional hidden nodes, and switched up the activation functions associated with each layer in an attempt to achieve higher model accuracy.
 Nothing seemed to help and then I included the NAME column into the features.
