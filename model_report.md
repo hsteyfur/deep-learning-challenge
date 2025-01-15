@@ -18,7 +18,7 @@ What variable(s) should be removed from the input data because they are neither 
 Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
-In the first attempt, i used 80 layer1 and 50 layer2 
+In the first attempt, i used 80 layer1 and 30 layer2 
 Were you able to achieve the target model performance?
 I was not able to achieve the 75% model accuracy target at first try but after including the NAME column into the features I did get %75 accuracy. 
 What steps did you take in your attempts to increase model performance?
